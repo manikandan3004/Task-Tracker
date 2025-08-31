@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const apiUrl = 'http://localhost:3000/tasks'; // <-- IMPORTANT: Change this to your Render API URL when deployed
+    const apiUrl = ' https://task-tracker-cp1x.onrender.com'; 
     
     const taskForm = document.getElementById('task-form');
     const taskList = document.getElementById('task-list');
@@ -146,4 +146,5 @@ document.addEventListener('DOMContentLoaded', () => {
 // --- Popup Global Functions ---
 function closePopup() {
     document.getElementById('reminder-popup').className = 'popup-hidden';
+
 }
