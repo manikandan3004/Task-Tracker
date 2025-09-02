@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const apiUrl = ' https://task-tracker-cp1x.onrender.com'; 
+    const apiUrl = 'https://task-tracker-cp1x.onrender.com'; 
     
     const taskForm = document.getElementById('task-form');
     const taskList = document.getElementById('task-list');
@@ -148,3 +148,4 @@ function closePopup() {
     document.getElementById('reminder-popup').className = 'popup-hidden';
 
 }
+
